@@ -80,31 +80,39 @@ nav ul li {
 }
 
 /***** Reddit Feed Column *****/
-.col {
-  width: 20%;
+.col1 {
+  max-width: 22.5%;
 }
 
 .reddit h3 {
-  font-family: inherit;
+  font-family: "Inconsolata", monospace !important;
   position: absolute;
-  top: 24px;
-  left: 285px;
+  top: 25px;
+  left: 265px;
+  margin-bottom: 10px;
 }
 
 .newsfeed-main {
+  font-size: 16px;
   line-height: 1.3em;
-  height: 120px;
+  height: 800px;
+  width: 20%;
+  overflow-y: auto;
   position: absolute;
   top: 65px;
-  left: 235px;
+  left: 265px;
+}
+
+.newsfeed-main::-webkit-scrollbar {
+  display: none;
 }
 
 .newsfeed1,
 .newsfeed2,
 .newsfeed3,
 .newsfeed4 {
-  border-left: 2px solid rgb(143, 142, 142);
-  margin-bottom: 32px;
+  border-left: 3px solid rgb(143, 142, 142);
+  margin-bottom: 30px;
 }
 
 .newsfeed1 p,
@@ -114,3 +122,45 @@ nav ul li {
   color: #f8f8f2;
   padding-left: 15px;
 }
+
+.newsfeed1 .nf-p1 {
+  color: #e6db73;
+  margin-top: 8px;
+  padding-left: 15px;
+}
+
+.newsfeed1 .nf-p3 {
+  color: #ed75c5;
+  margin-top: 8px;
+  padding-left: 15px;
+}
+
+.newsfeed2 .nf-p1,
+.newsfeed3 .nf-p1,
+.newsfeed4 .nf-p1 {
+  color: #e6db73;
+  margin-top: 8px;
+  padding-left: 15px;
+}
+
+.newsfeed2 .nf-p1 span,
+.newsfeed3 .nf-p1 span,
+.newsfeed4 .nf-p1 span {
+  color: #8beafd;
+}
+
+.newsfeed2 .nf-p2,
+.newsfeed3 .nf-p2,
+.newsfeed4 .nf-p2 {
+  color: #6172a5;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+
+.newsfeed2 .nf-p3 a,
+.newsfeed3 .nf-p3 a {
+  color: #ed75c5;
+  margin-top: 10px;
+}
+
+/***** JavaScript History Column *****/
