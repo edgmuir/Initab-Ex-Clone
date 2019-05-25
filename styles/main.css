@@ -1,0 +1,116 @@
+/* Reset margin and padding for the body*/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #272a35;
+  font-family: "Inconsolata", monospace;
+  margin: 0;
+  height: 100vh;
+  position: relative;
+}
+
+/***** Navigation Bar *****/
+header {
+  background-color: #44465a;
+  height: 100%;
+  width: 15%;
+}
+
+nav ul {
+  margin: 0;
+  padding-top: 35px;
+}
+
+nav ul li {
+  list-style: none;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.color1 {
+  color: #8beafd;
+}
+
+.color2 {
+  color: #74f27c;
+}
+
+.color3 {
+  color: #f7b76b;
+}
+
+.color4 {
+  color: #ed75c5;
+}
+
+.color5 {
+  color: #bd93fa;
+}
+
+.color6 {
+  color: #f8f8f2;
+}
+
+.color7 {
+  color: #e6db73;
+}
+
+.logo {
+  position: absolute;
+  bottom: 85px;
+  left: 40px;
+}
+
+.social-media {
+  position: absolute;
+  bottom: 18px;
+  left: -15px;
+}
+
+.social-media ul {
+  list-style: none;
+}
+
+.social-media ul li {
+  display: inline-block;
+  padding-right: 6px;
+}
+
+/***** Reddit Feed Column *****/
+.col {
+  width: 20%;
+}
+
+.reddit h3 {
+  font-family: inherit;
+  position: absolute;
+  top: 24px;
+  left: 285px;
+}
+
+.newsfeed-main {
+  line-height: 1.3em;
+  height: 120px;
+  position: absolute;
+  top: 65px;
+  left: 235px;
+}
+
+.newsfeed1,
+.newsfeed2,
+.newsfeed3,
+.newsfeed4 {
+  border-left: 2px solid rgb(143, 142, 142);
+  margin-bottom: 32px;
+}
+
+.newsfeed1 p,
+.newsfeed2 p,
+.newsfeed3 p,
+.newsfeed4 p {
+  color: #f8f8f2;
+  padding-left: 15px;
+}
