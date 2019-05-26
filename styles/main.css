@@ -1,4 +1,5 @@
 /* Reset margin and padding for the body*/
+
 body {
   margin: 0;
   padding: 0;
@@ -7,8 +8,8 @@ body {
 body {
   background-color: #272a35;
   font-family: "Inconsolata", monospace;
-  margin: 0;
   height: 100vh;
+  width: 95vw;
   position: relative;
 }
 
@@ -16,7 +17,7 @@ body {
 header {
   background-color: #44465a;
   height: 100%;
-  width: 13.5%;
+  width: 14.5%;
 }
 
 nav ul {
@@ -60,14 +61,14 @@ nav ul li {
 
 .logo {
   position: absolute;
-  bottom: 85px;
-  left: 40px;
+  bottom: 82px;
+  left: 44px;
 }
 
 .social-media {
   position: absolute;
-  bottom: 18px;
-  left: -15px;
+  bottom: 15px;
+  left: -12px;
 }
 
 .social-media ul {
@@ -89,6 +90,7 @@ nav ul li {
   top: 25px;
   left: 268px;
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 .newsfeed-main {
@@ -98,7 +100,7 @@ nav ul li {
   width: 18%;
   overflow-y: auto;
   position: absolute;
-  top: 65px;
+  top: 70px;
   left: 265px;
 }
 
@@ -169,7 +171,7 @@ nav ul li {
 
 /***** JavaScript History Column *****/
 .col2 {
-  max-width: 38%;
+  max-width: 37.5%;
 }
 
 .col2 h3 {
@@ -179,6 +181,7 @@ nav ul li {
   top: 25px;
   left: 765px;
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 .col2-left {
@@ -206,7 +209,7 @@ nav ul li {
 
 hr {
   font-size: 2px;
-  width: 35%;
+  width: 37%;
   position: absolute;
   top: 400px;
   left: 645px;
@@ -214,11 +217,11 @@ hr {
 
 .col2-right {
   color: #f8f8f2;
-  float: right;
+  float: left;
   width: 10%;
   position: absolute;
   top: 75px;
-  left: 1175px;
+  left: 1185px;
 }
 
 .col2-right p {
@@ -276,6 +279,179 @@ hr {
 }
 
 .p1,
-.p3 {
+.p3,
+.p4 {
   text-align: center;
+}
+
+.p4 {
+  color: #fdb770;
+}
+
+/***** Github Issue History Feed *****/
+.col3 {
+  max-width: 24%;
+}
+
+.github h3 {
+  color: #8beafd;
+  position: absolute;
+  top: 25px;
+  left: 1390px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.github .gitlab {
+  color: #6172a5;
+  position: absolute;
+  top: 48px;
+  left: 1440px;
+}
+
+.github .issues {
+  color: #ed75c5;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  top: 85px;
+  left: 1415px;
+  text-transform: uppercase;
+}
+
+.github .issues span {
+  color: #e6db73;
+  padding-bottom: 15px;
+}
+
+.github-main {
+  font-size: 15px;
+  line-height: 1.3em;
+  height: 465px;
+  width: 18%;
+  overflow-y: auto;
+  position: absolute;
+  top: 135px;
+  left: 1400px;
+  border-bottom: 1px solid #ccc;
+}
+
+.github-main::-webkit-scrollbar {
+  display: none;
+}
+
+/***** Gitfeed1 *****/
+.gitfeed1 .gf-p1 {
+  color: #6172a5;
+  position: absolute;
+  top: 40px;
+  padding-left: 15px;
+}
+
+.gitfeed1 .gf-p2 {
+  color: #e6db73;
+  position: absolute;
+  top: 65px;
+  padding-left: 15px;
+}
+
+.gitfeed1 .gf-p3 {
+  color: #f8f8f2;
+  position: absolute;
+  top: 85px;
+  padding-left: 15px;
+  margin-bottom: 50px;
+}
+
+.gitfeed1 {
+  border-left: 3px solid rgb(143, 142, 142);
+  height: 120px;
+  margin-top: 58px;
+}
+
+/***** Gitfeed2 *****/
+.gitfeed2 .gf-p1 {
+  color: #6172a5;
+  position: absolute;
+  top: 190px;
+  padding-left: 15px;
+}
+
+.gitfeed2 .gf-p2 {
+  color: #e6db73;
+  position: absolute;
+  top: 215px;
+  padding-left: 15px;
+}
+
+.gitfeed2 .gf-p3 {
+  color: #f8f8f2;
+  position: absolute;
+  top: 245px;
+  padding-left: 15px;
+  margin-bottom: 50px;
+}
+
+.gitfeed2 {
+  border-left: 3px solid rgb(143, 142, 142);
+  height: 125px;
+  margin-top: 32px;
+}
+
+/***** Gitfeed3 *****/
+.gitfeed3 .gf-p1 {
+  color: #6172a5;
+  position: absolute;
+  top: 350px;
+  padding-left: 15px;
+}
+
+.gitfeed3 .gf-p2 {
+  color: #e6db73;
+  position: absolute;
+  top: 375px;
+  padding-left: 15px;
+}
+
+.gitfeed3 .gf-p3 {
+  color: #f8f8f2;
+  position: absolute;
+  top: 395px;
+  padding-left: 15px;
+  margin-bottom: 50px;
+}
+
+.gitfeed3 {
+  border-left: 3px solid rgb(143, 142, 142);
+  height: 125px;
+  margin-top: 32px;
+}
+
+/***** Gitfeed4 *****/
+.gitfeed4 .gf-p1 {
+  color: #6172a5;
+  position: absolute;
+  top: 500px;
+  padding-left: 15px;
+}
+
+.gitfeed4 .gf-p2 {
+  color: #e6db73;
+  position: absolute;
+  top: 525px;
+  padding-left: 15px;
+}
+
+.gitfeed4 .gf-p3 {
+  color: #f8f8f2;
+  position: absolute;
+  top: 545px;
+  padding-left: 15px;
+  margin-bottom: 50px;
+}
+
+.gitfeed4 {
+  border-left: 3px solid rgb(143, 142, 142);
+  height: 125px;
+  margin-top: 28px;
 }
