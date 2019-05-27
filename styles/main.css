@@ -100,7 +100,7 @@ nav ul li {
 .newsfeed-main {
   font-size: 15px;
   line-height: 1.3em;
-  height: 800px;
+  height: 775px;
   width: 18%;
   overflow-y: auto;
   position: absolute;
@@ -175,7 +175,7 @@ nav ul li {
 
 /***** JavaScript History Column *****/
 .col2 {
-  max-width: 35.5%;
+  max-width: 38.5%;
 }
 
 .col2 h3 {
@@ -184,8 +184,22 @@ nav ul li {
   position: absolute;
   top: 25px;
   left: 760px;
-  margin-bottom: 10px;
+  margin-bottom: 35px;
   text-transform: uppercase;
+}
+
+.jsfeed {
+  width: 38.5%;
+  max-height: 200px;
+  overflow-y: auto;
+  position: absolute;
+  top: 400px;
+  left: 635px;
+  border-bottom: 1px solid #ccc;
+}
+
+.jsfeed::-webkit-scrollbar {
+  display: none;
 }
 
 .col2-left {
@@ -211,21 +225,13 @@ nav ul li {
   margin-bottom: 10px;
 }
 
-hr {
-  font-size: 2px;
-  width: 38%;
-  position: absolute;
-  top: 400px;
-  left: 638px;
-}
-
 .col2-right {
   color: #f8f8f2;
   float: left;
   width: 10%;
   position: absolute;
   top: 75px;
-  left: 1165px;
+  left: 1160px;
 }
 
 .col2-right p {
@@ -237,7 +243,7 @@ hr {
 .date-time {
   position: absolute;
   top: 425px;
-  left: 668px;
+  left: 660px;
   width: 36.5%;
 }
 
