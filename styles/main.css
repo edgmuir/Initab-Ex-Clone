@@ -1,15 +1,11 @@
-/* Reset margin and padding for the body*/
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   background-color: #272a35;
   font-family: "Inconsolata", monospace;
-  height: 885px;
-  width: 95vw;
+  width: 100%;
+  margin: 0; /*Reset margin and padding for the body */
+  padding: 0;
+  min-width: 370px;
+  max-width: 1400px;
   position: relative;
 }
 
@@ -70,7 +66,7 @@ nav ul li {
 }
 
 .social-media {
-  position: fixede;
+  position: fixed;
   bottom: 10px;
   left: -24px;
 }
@@ -220,7 +216,7 @@ nav ul li {
 
 .js-days {
   text-align: justify;
-  margin-left: 65px;
+  margin-left: 5%;
 }
 
 /***** Local Date and Time *****/
@@ -239,7 +235,7 @@ nav ul li {
   letter-spacing: 1px;
   position: absolute;
   top: -160px;
-  left: 10px;
+  left: -18px;
 }
 
 #date {
@@ -444,7 +440,6 @@ nav ul li {
   padding-top: 15px;
 }
 
-
 .gitfeed4 .gf-p2 {
   color: #e6db73;
   position: absolute;
@@ -499,4 +494,3 @@ nav ul li {
   height: 138px;
   margin-top: 18px;
 }
-
